@@ -1,0 +1,16 @@
+CREATE DATABASE bd_blessed;
+USE bd_blessed;
+
+CREATE TABLE Usuario(
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(45),
+email VARCHAR(50),
+senha VARCHAR(45)
+);
+
+
+CREATE TABLE Produto(
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(45),
+preco DECIMAL(15,2)
+);
